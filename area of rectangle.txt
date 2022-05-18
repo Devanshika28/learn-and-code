@@ -1,0 +1,39 @@
+#include <stdio.h> 
+
+int main() 
+
+{ 
+
+float LengthOfRectagle, BreadthOfRectangle, AreaOfRectangle, PerimeterOfRec, RadiousOfCircle, AraeOfCircle, CircumstanceOfCircle; 
+
+printf ("Enter the Length of Rectangle = "); 
+
+scanf ("%f", &LengthOfRectagle); 
+
+printf ("Enter the Breadth of Rectangle = "); 
+
+scanf ("%f", &BreadthOfRectangle); 
+
+AreaOfRectangle = LengthOfRectagle*BreadthOfRectangle; 
+
+PerimeterOfRec = 2*(LengthOfRectagle+BreadthOfRectangle); 
+
+printf("Area of the Rectangle is = %f\n", AreaOfRectangle); 
+
+printf("Perimeter of the Rectangle is = %f\n", PerimeterOfRec); 
+
+ printf ("Enter the Radius of Circle = "); 
+
+scanf ("%f", &RadiousOfCircle); 
+
+AraeOfCircle = 3.14*RadiousOfCircle*RadiousOfCircle; 
+
+CircumstanceOfCircle = 2*3.14*RadiousOfCircle; 
+
+printf("Area of Circle = %f\n", AraeOfCircle); 
+
+printf("Circumference of Circle = %f\n", CircumstanceOfCircle); 
+
+return 0; 
+
++} 

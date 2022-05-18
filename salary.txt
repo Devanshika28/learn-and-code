@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	int sal; 
+		printf("Enter a Salary : ");
+	    scanf("%d", & sal );
+
+		int da = 40 / 100.0 * sal;
+        int hra = 20 / 100.0 * sal;
+       
+        int gross = sal + da + hra;
+			
+		
+		printf("%d Gross Salary %d.",  gross  );
+}

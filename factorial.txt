@@ -1,0 +1,25 @@
+#include <stdio.h> 
+
+int main() 
+
+{ 
+
+int FactorialOf, j=1;  
+
+printf ("Enter the Number = "); 
+
+scanf ("%d", &Fof); 
+
+for (int i=FactorialOf; i>=1; i--) 
+
+{ 
+
+    j = i*j; 
+
+} 
+
+printf ("Factorial of Given number is = %d", j);  
+
+return 0; 
+
+} 

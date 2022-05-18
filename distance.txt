@@ -1,0 +1,28 @@
+int main() 
+
+{ 
+
+float Dis, Meter, Feet, Inch, Cent; 
+
+printf ("Enter the Distance in KM = "); 
+scanf ("%f", &Dis); 
+
+Meter = Dis*1000; 
+
+Feet = Dis*3280.84; 
+
+Inch = Dis*39370.1;  
+
+Cent = Dis*100000; 
+
+printf("Distance in Meter = %f\n", Meter ); 
+
+printf("Distance in Feet = %f\n", Feet); 
+
+printf("Distance in Inch = %f\n", Inch); 
+
+printf("Distance in Cent = %f\n", Cent);  
+
+return 0; 
+
+} 
